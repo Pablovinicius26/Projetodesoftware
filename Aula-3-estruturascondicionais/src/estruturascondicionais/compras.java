@@ -55,7 +55,7 @@ public class compras {
 							break;
 						case 3:
 							valorFinal = valorCompra * 1.1;
-							System.out.println("Sua compra ficou R$" + valorFinal);
+							System.out.printf("Sua compra ficou R$ %.2f" , valorFinal);
 							break;
 						default:
 							System.out.println("Opção Inválida");
